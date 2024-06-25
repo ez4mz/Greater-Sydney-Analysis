@@ -31,9 +31,13 @@ This project focuses on analyzing various geographical regions within Greater Sy
 ### Data Analysis and Visualization
 - Computed a "bustling" score for each SA2 region using the formula below, where $S$ is the sigmoid function and $z$ is the normalised z-score.
 
-$
-\text{Score} = S(z_{\text{business}} + z_{\text{stops}} + z_{\text{polls}} + z_{\text{schools}})
-$
+<p align="center">
+  <img src="img/formula.png" alt="formula">
+</p>
+
+<p align="center">
+  <img src="img/metric.png" alt="metric">
+</p>
 
 - Extended the scoring function by incorporating additional datasets.
 - Visualized the results using interactive graphs and map overlays.
@@ -41,4 +45,4 @@ $
 
 <br><br>
 
-![Score by SA2 region](map.png)
+![Score by SA2 region](img/map.png)
